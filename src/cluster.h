@@ -15,8 +15,6 @@
  * multiplicators of the node timeout value (when ending with MULT). */
 #define CLUSTER_FAIL_REPORT_VALIDITY_MULT 2 /* Fail report validity. */
 #define CLUSTER_FAIL_UNDO_TIME_MULT 2 /* Undo fail if master is back. */
-#define CLUSTER_FAIL_UNDO_TIME_ADD 10 /* Some additional time. */
-#define CLUSTER_FAILOVER_DELAY 5 /* Seconds */
 #define CLUSTER_MF_TIMEOUT 5000 /* Milliseconds to do a manual failover. */
 #define CLUSTER_MF_PAUSE_MULT 2 /* Master pause manual failover mult. */
 #define CLUSTER_SLAVE_MIGRATION_DELAY 5000 /* Delay for slave migration. */
